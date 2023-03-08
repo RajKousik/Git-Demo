@@ -24,7 +24,6 @@ body
 {
     width:900px;
     height:800px;
-    /* align:center; */
 }
 
 #personal{
@@ -58,7 +57,13 @@ h3
 {
     text-align: center;
     color: rgb(0, 0, 255);
-    text-shadow: 2px 2px 2px #999999
+    text-shadow: 2px 2px 2px #999999;
+}
+
+#education p{
+    text-align:justify;
+    font-size: 20px;
+    text-indent: 75px;
 }
 
 #qualification
@@ -69,12 +74,6 @@ h3
     box-sizing: border-box;
 }
 
-#education p{
-    text-align:justify;
-    font-size: 20px;
-    text-indent: 75px;
-}
-
 #education table
 {
     border:5;
@@ -82,12 +81,13 @@ h3
     text-align: center; 
 }
 
+.li
+{
+    padding-bottom: 5px;
+}
+
 #list
 {
     font-size: 20px;
 }
 
-.li
-{
-    padding-bottom: 5px;
-}
