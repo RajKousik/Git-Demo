@@ -1,0 +1,93 @@
+a:link 
+{
+  color: royalblue;
+  background-color: transparent;
+}
+a:hover
+ {
+  color: greenyellow;
+  background-color: transparent;
+}
+a:active 
+{
+  color: red;
+  background-color: transparent;
+}
+
+body
+{
+    font-family:'Times New Roman',Times, serif;
+    background-color: #dfd8dc;
+}
+
+#maintable
+{
+    width:900px;
+    height:800px;
+    /* align:center; */
+}
+
+#personal{
+    color: whitesmoke;
+    padding: 20px;
+    background-color: #1c2833;
+    width: 200px; 
+}
+
+#education
+{
+    width:700px; 
+    background-color:whitesmoke;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+img
+{
+    border-radius:50%;
+    object-fit: cover;
+}
+
+h3
+{
+    text-align: right;
+}
+
+#education h1
+{
+    text-align: center;
+    color: rgb(0, 0, 255);
+    text-shadow: 2px 2px 2px #999999
+}
+
+#qualification
+{
+    border: 5px; 
+    border-collapse: collapse;
+    border-color: black;
+    box-sizing: border-box;
+}
+
+#education p{
+    text-align:justify;
+    font-size: 20px;
+    text-indent: 75px;
+}
+
+#education table
+{
+    border:5;
+    width:700px;
+    text-align: center; 
+}
+
+#list
+{
+    font-size: 20px;
+}
+
+.li
+{
+    padding-bottom: 5px;
+}
